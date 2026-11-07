@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <ApplicationIcon>Assets/PianoFollow.ico</ApplicationIcon>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets/PianoFollow.ico" />
+    <ProjectReference Include="../PianoFollow.Core/PianoFollow.Core.csproj" />
+    <PackageReference Include="PDFsharp-WPF" Version="6.2.4" />
+    <InternalsVisibleTo Include="PianoFollow.Checks" />
+  </ItemGroup>
+</Project>

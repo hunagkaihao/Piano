@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/PianoFollow.Core/PianoFollow.Core.csproj" />
+  <Project Path="src/PianoFollow/PianoFollow.csproj" />
+  <Project Path="tests/PianoFollow.Checks/PianoFollow.Checks.csproj" />
+</Solution>
